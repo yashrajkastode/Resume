@@ -82,6 +82,3 @@ Extracurriculars
 ◦ President & Founder, Eureka Club - VIT Bhopal
 
 ◦ Volunteer in AI Conclave 2.0 in AI Club - VIT Bhopal
-
- Volunteer in AI Conclave 2.0 in AI Club - VIT Bhopal
- ExtracurricularsExtracurriculars
