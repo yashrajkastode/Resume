@@ -1,0 +1,272 @@
+%-------------------------
+% Resume in Latex
+% Author: Yashraj Kastode
+% License: MIT
+%-------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+
+\setlength{\multicolsep}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\geometry{left=1.0cm, top=0.5cm, right=1.0cm, bottom=0.2cm}
+
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=1pt,
+    arc=0pt, outer arc=0pt,
+}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting - reduced spacing further
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.1mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}}
+    \end{tabular*}
+    \vspace{-0.5mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-0.7mm}
+}
+
+% Modified project command to include link in title line
+\newcommand{\resumeProject}[4]{
+\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{\href{#4}{Link}}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#3}
+    \end{tabular*}
+    \vspace{-0.4mm}
+}
+
+% New command for certifications
+\newcommand{\resumeCertification}[3]{
+\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\small{#3}} \\
+        \small{#2}
+    \end{tabular*}
+    \vspace{-0.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-1pt}}
+
+\renewcommand{\labelitemi}{\textopenbullet}
+
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm,label={}]}
+
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=0.5mm, rightmargin=2ex]}
+
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1mm,itemsep=0.15mm,label=$\circ$]}
+
+
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{0.15mm}}
+
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-0.5mm}}
+
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-0.15mm}}
+
+\newcommand{\cvsection}[1]{%
+\vspace{-0.8mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-2.5mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+
+% New command for achievements
+\newcommand{\achievement}[3]{
+\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\small{#3}} \\
+        \small{#2}
+    \end{tabular*}
+    \vspace{-0.4mm}
+}
+
+%---- End of Packages and Functions ------
+
+%-------------------------------------------
+%%%%%% CV STARTS HERE %%%%%%%%%%%
+%%%%%% DEFINE ELEMENTS HERE %%%%%%%
+
+\newcommand{\name}{Yashraj Kastode} % Your Name
+\newcommand{\course}{Integrated M.Tech Artificial Intelligence)} % Your Program
+\newcommand{\roll}{22MIM10020} % Your Roll No.
+\newcommand{\phone}{8767770548} % Your Phone Number
+\newcommand{\emaila}{yashrajkastode@gmail.com} %Email 1
+
+\begin{document}
+
+\fontfamily{cmr}\selectfont
+
+%----------HEADING-----------------
+\begin{center}
+    {\Huge \textbf{\textsc{\name}}} \\
+    \vspace{0.5mm}
+    \emaila --- +91 \phone --- \href{https://www.linkedin.com/in/yashraj-kastode?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app}{LinkedIn} --- \href{https://github.com/yashrajkastode}{GitHub} --- \href{https://codeforces.com/profile/yashrajkastode}{Codeforces (Rating: 918)}
+\end{center}
+\vspace{-0.5mm}
+
+%-----------EDUCATION-----------
+\cvsection{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Integrated M.Tech Artificial Intelligence}{CGPA: 8.47}
+      {VIT Bhopal University, Bhopal}{2022-27}
+    \resumeSubheading
+      {Senior Secondary Education (Class 12)}{Percentage: 77.67\%}
+      {Vivekanand College, Aurangabad, Maharashtra}{2022}
+    \resumeSubheading
+      {Secondary Education (Class 10)}{Percentage: 92.4\%}
+      {Kendriya Vidyalaya, Aurangabad, Maharashtra}{2020}
+  \resumeSubHeadingListEnd
+\vspace{-1.5mm}
+
+%-----------Technical skills-----------------
+\cvsection{Technical Skills}
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+         C++, Python, JavaScript, Data Structures & Algorithms, Object-Oriented Programming (OOPS), Operating Systems, Computer Networks, Django, NumPy, Pandas, TensorFlow, PyTorch, Git, GitHub, REST APIs, Problem Solving, Debugging, Version Control, Asynchronous Systems
+    }}
+ \end{itemize}
+ \vspace{-4pt}
+
+
+
+%-----------PROJECTS-----------------
+\cvsection{Projects}
+\resumeSubHeadingListStart
+    \resumeProject
+      {Hindi AI Text Summarizer | Abstractive NLP System} % Project Name
+      {A production-oriented system for generating abstractive summaries of Hindi text using Transformer models.}
+        {}% Empty field
+      {https://github.com/yashrajkastode/Hindi-Text-Summarization} % Replace with actual link
+    \resumeItemListStart
+         \item Designed and implemented an \textbf{abstractive Hindi text summarization pipeline} using the \textbf{google/mt5-base} Transformer model for sequence-to-sequence generation.
+        \item Built a \textbf{scalable Django REST backend} with clean service-layer separation for preprocessing, model loading, and inference logic.
+        \item Integrated \textbf{Celery with Redis} to offload computationally expensive NLP inference tasks, ensuring non-blocking API performance.
+        \item Implemented a custom \textbf{Hindi text normalization pipeline} to handle noisy news data, whitespace artifacts, and linguistic inconsistencies prior to model inference.
+        \item Optimized inference with controlled decoding strategies (\textbf{beam search, repetition penalties}) to improve grammatical correctness and summary coherence without model fine-tuning.
+        \item \textbf{Tools Used:} Python, Django, Django REST Framework, PyTorch, Hugging Face Transformers, mT5, Celery, Redis, Git
+    \resumeItemListEnd
+
+    \resumeProject
+      {Med-Matrix | Full-Stack Drug Interaction Checker} % Project Name
+      {A pharmaceutical safety tool that identifies harmful drug-to-drug interactions based on chemical salts.} % Project Description
+      {} % Empty field
+      {https://github.com/yashrajkastode/med-matrix} 
+    \resumeItemListStart
+        \item Migrated backend architecture from \textbf{Flask} to \textbf{Django 6.0}, implementing a robust \textbf{RESTful API} and secure \textbf{CORS} configurations.
+        \item Developed a \textbf{many-to-many comparison algorithm} to detect hazardous interactions by analyzing constituent chemical salts across a database of 100+ medications.
+        \item Built a modern, responsive UI using \textbf{Tailwind CSS} featuring an \textbf{interactive accordion system} for component breakdown and real-time \textbf{autocomplete search}.
+        \item Optimized for production with \textbf{Gunicorn} and a \textbf{Procfile}, maintaining clean version control via \textbf{Git/GitHub}.
+        \item \textbf{Tools Used:} Python, Django, JavaScript, Tailwind CSS, Gunicorn, Git
+    \resumeItemListEnd
+    
+    \resumeProject
+      {Hasthakshar using Deep Learning} % Project Name
+      {Computer vision system to recognize and translate Indian Sign Language gestures} % Project Description
+      {} % Empty field
+      {https://github.com/yashrajkastode/Hastakshar} 
+    \resumeItemListStart
+        \item Creating a \textbf{custom dataset} of \textbf{Indian Sign Language gestures} for training the detection model.
+        \item Implementing \textbf{stick figure representation} for \textbf{skeletal keypoint detection} and analysis.
+        \item Utilizing \textbf{deep learning frameworks} (TensorFlow/PyTorch) for \textbf{real-time gesture recognition} achieving \textbf{90\% accuracy}.
+        \item \textbf{Tools Used:} Python, TensorFlow/PyTorch, OpenCV, MediaPipe, NumPy, Matplotlib
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-0.7mm}
+
+%-----------Achievements-----------------
+\cvsection{Achievements}
+\begin{itemize}[leftmargin=0.15in, itemsep=0.25pt, parsep=0pt]
+    \small{
+        \item \textbf{Microsoft Office Specialist: PowerPoint 2013 (By Microsoft)} -- May 2019 
+        {}
+        \href{https://www.credly.com/badges/7bb3c1b3-88b5-42e4-87c7-4620f59cd23b/public_url}{[Badge - Link]}
+
+        
+    }
+\end{itemize}
+\vspace{-2mm}
+
+%-----------Positions of Responsibility-----------------
+\cvsection{Extracurriculars}
+\begin{itemize}[leftmargin=0.15in, itemsep=0.25pt, parsep=0pt]
+    \small{
+        \item \textbf{President \& Founder}, Eureka Club - VIT Bhopal
+        \item \textbf{Volunteer} in AI Conclave 2.0 in AI Club - VIT Bhopal
+        
+    }
+\end{itemize}
+
+%-------------------------------------------
+\end{document}
