@@ -1,5 +1,7 @@
 Yashraj Kastode
+
 yashrajkastode@gmail.com— +91 8767770548— LinkedIn — GitHub — Codeforces (Rating: 918)
+
 Education
 Integrated M.Tech Artificial Intelligence 2022-27
 VIT Bhopal University, Bhopal CGPA: 8.47
