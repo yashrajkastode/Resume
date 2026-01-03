@@ -5,9 +5,13 @@
 📊 Competitive Programming (Codeforces: 918)  
 
 📧 yashrajkastode@gmail.com  
+
 🔗 LinkedIn - https://www.linkedin.com/in/yashraj-kastode/
+
 🔗 GitHub - https://github.com/yashrajkastode 
+
 🔗 Codeforces - https://codeforces.com/profile/yashrajkastode
+
 ---
 
 ## 👨‍💻 About Me
