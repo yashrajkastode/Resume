@@ -1,9 +1,13 @@
 Yashraj Kastode
 
 yashrajkastode@gmail.com
+
 +91 8767770548
+
 LinkedIn - https://www.linkedin.com/in/yashraj-kastode/
+
 GitHub - https://github.com/yashrajkastode
+
 Codeforces (Rating: 918)[Link - https://codeforces.com/profile/yashrajkastode]
 
 Education
