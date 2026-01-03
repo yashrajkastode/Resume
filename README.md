@@ -1,92 +1,110 @@
-Yashraj Kastode
+# Hi, I'm Yashraj Kastode 👋
 
-yashrajkastode@gmail.com
+🎓 Integrated M.Tech (AI) @ VIT Bhopal  
+💻 Software Engineering | Backend | AI/ML  
+📊 Competitive Programming (Codeforces: 918)  
 
-+91 8767770548
+📧 yashrajkastode@gmail.com  
+🔗 LinkedIn - https://www.linkedin.com/in/yashraj-kastode/
+🔗 GitHub - https://github.com/yashrajkastode 
+🔗 Codeforces - https://codeforces.com/profile/yashrajkastode
+---
 
-LinkedIn - https://www.linkedin.com/in/yashraj-kastode/
+## 👨‍💻 About Me
 
-GitHub - https://github.com/yashrajkastode
+I am an Artificial Intelligence undergraduate with a strong foundation in **software engineering, backend systems, and applied machine learning**.  
+I enjoy building **production-grade systems**, designing **scalable APIs**, and solving problems using **data structures and algorithms**.
 
-Codeforces (Rating: 918)[Link - https://codeforces.com/profile/yashrajkastode]
+Currently focused on:
+- Backend engineering with Django
+- NLP systems using Transformer architectures
+- Asynchronous & scalable system design
 
-Education
+---
 
-Integrated M.Tech Artificial Intelligence 2022-27
-VIT Bhopal University, Bhopal CGPA: 8.47
+## 🛠️ Tech Stack
 
-Senior Secondary Education (Class 12) 2022
-Vivekanand College, Aurangabad, Maharashtra Percentage: 77.67%
+**Languages:**  
+C++, Python, JavaScript  
 
-Secondary Education (Class 10) 2020
-Kendriya Vidyalaya, Aurangabad, Maharashtra Percentage: 92.4%
+**Core CS:**  
+Data Structures & Algorithms, OOPS, Operating Systems, Computer Networks  
 
-Technical Skills
+**Backend & Frameworks:**  
+Django, Django REST Framework, REST APIs  
 
-C++, Python, JavaScript, Data Structures Algorithms, Object-Oriented Programming (OOPS), Operating Systems,
-Computer Networks, Django, NumPy, Pandas, TensorFlow, PyTorch, Git, GitHub, REST APIs, Problem Solving,
-Debugging, Version Control, Asynchronous Systems
+**AI / ML:**  
+TensorFlow, PyTorch, Hugging Face Transformers, NumPy, Pandas  
 
-Projects
+**Systems & Tools:**  
+Git, GitHub, Redis, Celery, Gunicorn, Asynchronous Systems  
 
-Hindi AI Text Summarizer | Abstractive NLP System [Link - https://github.com/yashrajkastode/Hindi-Text-Summarization]
+---
 
-A production-oriented system for generating abstractive summaries of Hindi text using Transformer models.
+## 🚀 Featured Projects
 
-◦ Designed and implemented an abstractive Hindi text summarization pipeline using the google/mt5-base
-Transformer model for sequence-to-sequence generation.
+### 📝 Hindi AI Text Summarizer (Abstractive NLP)
+Production-oriented system for generating abstractive summaries of Hindi text.
 
-◦ Built a scalable Django REST backend with clean service-layer separation for preprocessing, model loading,
-and inference logic.
+- Implemented sequence-to-sequence summarization using `google/mt5-base`
+- Designed scalable Django REST backend with clean service-layer architecture
+- Integrated Celery + Redis for non-blocking inference
+- Built custom Hindi text normalization pipeline
+- Optimized decoding using beam search and repetition penalties
 
-◦ Integrated Celery with Redis to offload computationally expensive NLP inference tasks, ensuring non-blocking
-API performance.
+**Tech:** Python, Django, DRF, PyTorch, Hugging Face, mT5, Celery, Redis
 
-◦ Implemented a custom Hindi text normalization pipeline to handle noisy news data, whitespace artifacts, and
-linguistic inconsistencies prior to model inference.
+🔗 https://github.com/yashrajkastode/Hindi-Text-Summarization
 
-◦ Optimized inference with controlled decoding strategies (beam search, repetition penalties) to improve grammatical
-correctness and summary coherence without model fine-tuning.
+---
 
-◦ Tools Used: Python, Django, Django REST Framework, PyTorch, Hugging Face Transformers, mT5, Celery,
-Redis, Git
+### 💊 Med-Matrix — Drug Interaction Checker
+Full-stack pharmaceutical safety application.
 
-Med-Matrix | Full-Stack Drug Interaction Checker [Link - https://github.com/yashrajkastode/med-matrix]
+- Migrated backend from Flask to Django 6.0
+- Designed many-to-many chemical salt interaction detection algorithm
+- Built modern UI with Tailwind CSS and real-time autocomplete
+- Production deployment using Gunicorn
 
-A pharmaceutical safety tool that identifies harmful drug-to-drug interactions based on chemical salts.
+**Tech:** Python, Django, JavaScript, Tailwind CSS, Gunicorn
 
-◦ Migrated backend architecture from Flask to Django 6.0, implementing a robust RESTful API and secure
-CORS configurations.
+🔗 https://github.com/yashrajkastode/med-matrix
 
-◦ Developed a many-to-many comparison algorithm to detect hazardous interactions by analyzing constituent
-chemical salts across a database of 100+ medications.
+---
 
-◦ Built a modern, responsive UI using Tailwind CSS featuring an interactive accordion system for component
-breakdown and real-time autocomplete search.
+### ✋ Hasthakshar — Indian Sign Language Recognition
+Computer vision system for gesture recognition.
 
-◦ Optimized for production with Gunicorn and a Procfile, maintaining clean version control via Git/GitHub.
+- Created custom ISL gesture dataset
+- Implemented skeletal keypoint detection using MediaPipe
+- Achieved ~90% accuracy with deep learning models
 
-◦ Tools Used: Python, Django, JavaScript, Tailwind CSS, Gunicorn, Git
+**Tech:** Python, TensorFlow/PyTorch, OpenCV, MediaPipe
 
-Hasthakshar using Deep Learning [Link - https://github.com/yashrajkastode/Hastakshar]
+🔗 https://github.com/yashrajkastode/Hastakshar
 
-Computer vision system to recognize and translate Indian Sign Language gestures
+---
 
-◦ Creating a custom dataset of Indian Sign Language gestures for training the detection model.
+## 🏆 Achievements
 
-◦ Implementing stick figure representation for skeletal keypoint detection and analysis.
+- **Microsoft Office Specialist: PowerPoint 2013**  
+  Issued by Microsoft (May 2019)  
+  🔗 https://www.credly.com/badges/7bb3c1b3-88b5-42e4-87c7-4620f59cd23b/public_url
 
-◦ Utilizing deep learning frameworks (TensorFlow/PyTorch) for real-time gesture recognition achieving 90%
-accuracy.
+---
 
-◦ Tools Used: Python, TensorFlow/PyTorch, OpenCV, MediaPipe, NumPy, Matplotlib
+## 🌱 Leadership & Activities
 
-Achievements
+- **President & Founder**, Eureka Club — VIT Bhopal  
+- **Volunteer**, AI Conclave 2.0 — AI Club, VIT Bhopal  
 
-◦ Microsoft Office Specialist: PowerPoint 2013 (By Microsoft) – May 2019 [Badge Link - https://www.credly.com/badges/7bb3c1b3-88b5-42e4-87c7-4620f59cd23b/public_url]
+---
 
-Extracurriculars
+## 📊 Competitive Programming
 
-◦ President & Founder, Eureka Club - VIT Bhopal
+- Codeforces Rating: **918**
+- Strong focus on problem-solving and algorithmic thinking
 
-◦ Volunteer in AI Conclave 2.0 in AI Club - VIT Bhopal
+---
+
+⭐ *Feel free to explore my repositories and reach out for collaboration or opportunities.*
