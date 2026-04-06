@@ -2,7 +2,7 @@
 
 🎓 Integrated M.Tech (AI) @ VIT Bhopal  
 💻 Software Engineering | Backend | AI/ML  
-📊 Competitive Programming (Codeforces: 918)  
+📊 Competitive Programming (Codeforces: 1107)  
 
 📧 yashrajkastode@gmail.com  
 
