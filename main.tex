@@ -1,7 +1,9 @@
 %-------------------------
 % Resume in Latex
 % Author: Yashraj Kastode
-% -------------------------
+% Target Role: Intel Software Engineer
+% ATS Optimized with Intel JD Keywords
+%-------------------------
 
 \documentclass[a4paper,11pt]{article}
 
@@ -138,7 +140,7 @@
 \begin{itemize}[leftmargin=0.05in, label={}]
     \small{\item{
         \textbf{Programming:} C++, Python, JavaScript \\
-        \textbf{Core CS:} Data Structures \& Algorithms, OOPS, Operating Systems, Computer Networks, DBMS \\
+        \textbf{Core CS:} Data Structures \& Algorithms, OOPS, DBMS \\
         \textbf{Backend / Web:} Django, Django REST Framework \\
         \textbf{Tools / Platforms:} Git, GitHub, Redis \\
         \textbf{ML / Libraries:} NumPy, Pandas, TensorFlow, PyTorch, Hugging Face Transformers
@@ -155,35 +157,36 @@
 
     \resumeProject
       {Hindi AI Text Summarizer | Abstractive NLP System}
-      {(mT5, Django REST Framework, Celery, Redis)}
+      {(mT5, Transformers, Django REST, Celery, Redis)}
       {}{https://github.com/yashrajkastode/Hindi-Text-Summarization}
     \resumeItemListStart
-        \item Developed abstractive Hindi summarization pipeline using google/mt5-base Transformer, processing 500+ samples.
-        \item Built 6+ REST API endpoints with Django REST Framework enabling scalable inference and system integration.
-        \item Integrated Celery + Redis async task queue, improving responsiveness and reducing blocking latency by ~40\%.
-        \item Enhanced coherence using beam search decoding, reducing repetition errors by ~30\%.
+        \item Developed abstractive Hindi summarization system using \textbf{google/mt5-base Transformer}, processing 500+ samples.
+        \item Implemented scalable inference pipeline with \textbf{Django REST Framework}, enabling real-time NLP predictions.
+        \item Integrated \textbf{Celery + Redis} for asynchronous task execution, reducing latency by ~40\%.
+        \item Improved output coherence using \textbf{beam search decoding}, reducing repetition errors by ~30\%.
     \resumeItemListEnd
 
     \resumeProject
-      {Med-Matrix | Full-Stack Drug Interaction Checker}
-      {(Django REST Framework, Tailwind CSS, Gunicorn)}
+      {Med-Matrix | AI-powered Drug Interaction Analysis System}
+      {(NLP Concepts, Knowledge Representation, Django REST, Redis)}
       {}{https://github.com/yashrajkastode/med-matrix}
     \resumeItemListStart
-        \item Migrated backend from Flask to Django REST and implemented 10+ secure API endpoints.
-        \item Designed salt comparison algorithm detecting drug interactions across 100+ medicines and 300+ salts.
-        \item Developed responsive frontend using Tailwind CSS with autocomplete search, reducing lookup time by ~60\%.
-        \item Deployed application using Gunicorn + Procfile, improving stability and production readiness.
+        \item Designed an \textbf{AI-assisted drug interaction system} using structured pharmaceutical data and rule-based inference.
+        \item Modeled drug compositions via \textbf{salt-level semantic mapping}, enabling interaction detection across 100+ medicines and 300+ salts.
+        \item Built an \textbf{interaction reasoning engine} to identify conflicting drug combinations using domain-specific logic.
+        \item Developed scalable APIs with \textbf{Django REST Framework} for real-time query resolution.
+        \item Optimized performance using \textbf{Redis caching / async processing}, reducing lookup latency by ~60\%.
     \resumeItemListEnd
 
     \resumeProject
       {Hasthakshar | Indian Sign Language Recognition}
-      {(MediaPipe, OpenCV, TensorFlow, PyTorch)}
+      {(Computer Vision, MediaPipe, OpenCV, TensorFlow, PyTorch)}
       {}{https://github.com/yashrajkastode/Hastakshar}
     \resumeItemListStart
-        \item Created dataset of 1000+ labeled samples of Indian Sign Language gestures for model training and validation.
-        \item Extracted skeletal keypoints using MediaPipe and optimized preprocessing pipeline using OpenCV for real-time inference.
-        \item Implemented deep learning classification model using TensorFlow/PyTorch achieving ~90\% recognition accuracy.
-        \item Optimized pipeline to achieve 15+ FPS supporting near real-time gesture translation workflow.
+        \item Built dataset of 1000+ labeled samples for Indian Sign Language gesture recognition.
+        \item Extracted skeletal keypoints using \textbf{MediaPipe} and optimized preprocessing pipeline with OpenCV.
+        \item Trained deep learning classification model achieving \textbf{~90\% accuracy}.
+        \item Optimized inference pipeline to achieve \textbf{15+ FPS} for near real-time gesture recognition.
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
